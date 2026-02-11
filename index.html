@@ -3,52 +3,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zero.AI｜独立开发者奶爸</title>
-  <meta name="description" content="Zero.AI 的独立开发者奶爸博客：AI效率、独立开发、育儿与创业并行实践。" />
-  <meta name="keywords" content="独立开发者,奶爸,AI效率,小红书运营,技术博客,NoCofe,Zero.AI" />
-  <meta property="og:title" content="Zero.AI｜独立开发者奶爸" />
-  <meta property="og:description" content="记录独立开发、AI提效和奶爸生活的真实实践。" />
-  <meta property="og:type" content="website" />
+  <title>Zero.AI｜独立开发者奶爸的 AI 与产品实践</title>
+  <meta name="description" content="Zero.AI：独立开发者奶爸的真实成长博客，记录 AI 效率、产品迭代、育儿与创业并行的每一步。" />
+  <meta name="keywords" content="独立开发者,奶爸,AI效率,产品开发,技术博客,NoCofe,Zero.AI" />
   <meta name="robots" content="index,follow" />
+
   <link rel="canonical" href="https://zero-ai-blog.vercel.app/" />
-  <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft Yahei",sans-serif;margin:0;color:#111;background:#fafafa}
-    .wrap{max-width:860px;margin:0 auto;padding:36px 20px}
-    h1{font-size:34px;margin:0 0 8px}
-    .sub{color:#666;margin-bottom:28px}
-    .card{background:#fff;border:1px solid #eee;border-radius:14px;padding:18px;margin:14px 0}
-    a{color:#0f766e;text-decoration:none}
-    a:hover{text-decoration:underline}
-    .tag{display:inline-block;background:#f3f4f6;border-radius:999px;padding:4px 10px;margin-right:8px;font-size:12px;color:#555}
-    footer{margin-top:34px;color:#777;font-size:14px}
-  </style>
+
+  <meta property="og:title" content="Zero.AI｜独立开发者奶爸的 AI 与产品实践" />
+  <meta property="og:description" content="记录独立开发、AI提效、家庭与创业并行的真实实践。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zero-ai-blog.vercel.app/" />
+  <meta property="og:image" content="https://zero-ai-blog.vercel.app/assets/og-cover.svg" />
+  <meta property="og:image:type" content="image/svg+xml" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zero.AI｜独立开发者奶爸的 AI 与产品实践" />
+  <meta name="twitter:description" content="记录独立开发、AI提效、家庭与创业并行的真实实践。" />
+  <meta name="twitter:image" content="https://zero-ai-blog.vercel.app/assets/og-cover.svg" />
+
+  <link rel="stylesheet" href="/styles/main.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Zero.AI",
+    "url": "https://zero-ai-blog.vercel.app/",
+    "description": "独立开发者奶爸的 AI 与产品实践博客",
+    "publisher": {
+      "@type": "Person",
+      "name": "NoCofe"
+    }
+  }
+  </script>
 </head>
 <body>
-  <main class="wrap">
-    <h1>Zero.AI</h1>
-    <p class="sub">独立开发者奶爸｜AI效率｜真实成长记录</p>
+  <main class="container">
+    <nav class="site-nav" aria-label="主导航">
+      <a class="brand" href="/" aria-label="Zero.AI 首页">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Zero.AI</span>
+      </a>
+      <a class="btn btn-muted" href="https://github.com/NoCofe" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
 
-    <div class="card">
-      <div class="tag">置顶</div><div class="tag">人设</div>
-      <h2>我是谁：白天写代码，晚上带娃</h2>
-      <p>我是 NoCofe，男性独立开发者，有一个快3岁的孩子。这个站点记录我如何在家庭、工作和产品之间找到平衡。</p>
-    </div>
+    <section class="hero">
+      <div class="hero-main">
+        <span class="kicker">独立开发者奶爸 · Build in public</span>
+        <h1>白天做产品，晚上带娃。<br>在真实生活里，把 AI 和独立开发做成长期主义。</h1>
+        <p class="lead">这里没有神话，只有可复用的方法：如何在碎片时间推进产品、让 AI 真正帮你提效、并在家庭与创业之间保持不断线。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/posts/almost-gave-up.html">开始阅读</a>
+          <a class="btn btn-muted" href="https://github.com/NoCofe/xhs-operator-starter" target="_blank" rel="noopener noreferrer">查看开源项目</a>
+        </div>
+      </div>
 
-    <div class="card">
-      <div class="tag">新文章</div><div class="tag">情绪共鸣</div>
-      <h3><a href="/posts/almost-gave-up.html">有娃后做独立开发，我差点扛不住</a></h3>
-      <p>关于焦虑、微小推进和不掉线的那条底层规则。</p>
-    </div>
+      <aside class="hero-side" aria-label="站点概览">
+        <div class="stat-grid">
+          <div class="stat"><strong>01</strong><span>已发布文章</span></div>
+          <div class="stat"><strong>AI × 运营</strong><span>持续实战</span></div>
+          <div class="stat"><strong>Dad Mode</strong><span>真实育儿场景</span></div>
+          <div class="stat"><strong>Build</strong><span>每周微迭代</span></div>
+        </div>
+        <p class="note">写给同样想在生活重压里仍保持创造力的你。</p>
+      </aside>
+    </section>
 
-    <div class="card">
-      <div class="tag">工具</div><div class="tag">开源</div>
-      <h3><a href="https://github.com/NoCofe/xhs-operator-starter" target="_blank">xhs-operator-starter</a></h3>
-      <p>小红书运营中台：选题池、互动手册、复盘模板。</p>
-    </div>
+    <h2 class="section-title">精选内容</h2>
+    <section class="grid" aria-label="内容卡片">
+      <article class="card article">
+        <div class="tags">
+          <span class="tag">新文章</span>
+          <span class="tag">情绪共鸣</span>
+          <span class="tag">长期主义</span>
+        </div>
+        <h3><a href="/posts/almost-gave-up.html">有娃后做独立开发，我差点扛不住</a></h3>
+        <p>焦虑最重的时候，我用“每天一个最小动作”把自己从崩溃边缘拉了回来。不是爆发，而是不断线。</p>
+      </article>
+
+      <article class="card toolbox">
+        <div class="tags">
+          <span class="tag">工具</span>
+          <span class="tag">开源</span>
+        </div>
+        <h3><a href="https://github.com/NoCofe/xhs-operator-starter" target="_blank" rel="noopener noreferrer">xhs-operator-starter</a></h3>
+        <p>小红书运营中台：选题池、互动手册、复盘模板，帮助内容与转化形成闭环。</p>
+      </article>
+    </section>
 
     <footer>
-      © 2026 Zero.AI · Built with love by an indie dad developer.
+      © <span id="year">2026</span> Zero.AI · Built with love by an indie dad developer.
     </footer>
   </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
